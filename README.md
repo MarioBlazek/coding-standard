@@ -83,3 +83,7 @@ jobs:
 ```
 
 Check https://github.com/OskarStark/php-cs-fixer-ga for more details.
+
+## Changelog
+
+Changelog is available [here](CHANGELOG.md).
