@@ -1,0 +1,36 @@
+{
+    "name": "marioblazek/coding-standard",
+    "description": "My personal coding standard",
+    "license": "MIT",
+    "keywords": [
+        "coding-standard",
+        "php",
+        "cs-fixer"
+    ],
+    "homepage": "https://github.com/marioblazek/coding-standard",
+    "authors": [
+        {
+            "name": "Mario Blažek",
+            "email": "blazek.mario@gmail.com",
+            "homepage": "https://marioblazek.github.io/"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "friendsofphp/php-cs-fixer": "^3.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.1",
+        "phpstan/phpstan-strict-rules": "^1.0"
+    },
+    "scripts": {
+        "phpstan": "@php vendor/bin/phpstan analyse -c phpstan.neon --level=8 --ansi src"
+    },
+    "autoload": {
+        "psr-4": {
+            "Marek\\CodingStandard\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
