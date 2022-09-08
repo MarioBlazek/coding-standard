@@ -9,6 +9,8 @@ PHP CS Fixer and inspired by the Netgen Layouts Coding Standards.
 $ composer require --dev marioblazek/coding-standard
 ```
 
+The list of available rules can be found [here](https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/master/doc/rules/index.rst).
+
 ## Usage
 
 Create a `.php-cs-fixer.php` file in the root of your project with the following:
