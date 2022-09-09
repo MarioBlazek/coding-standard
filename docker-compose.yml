@@ -4,3 +4,7 @@ services:
     php:
         build: .
         image: marioblazek/coding-standard:latest
+        volumes:
+            - "./:/srv/app"
+        ports:
+            - "8000:8000"
